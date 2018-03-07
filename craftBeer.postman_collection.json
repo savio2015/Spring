@@ -1,0 +1,118 @@
+{
+	"id": "33f98ba8-2ba0-4e0a-8ef4-35d2cfb626ba",
+	"name": "craftBeer",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"cbae7ba3-a104-4ee8-8c8d-844afa0f6bc8",
+		"b9ae5396-3e70-41f6-a8f0-e9f8ca2e505b",
+		"32fd2857-5199-430c-ad3c-ded9dd1cc008",
+		"ed1a5e7c-426a-4699-a47c-0554334ae039",
+		"344e6be4-d09d-4fac-981c-7f2f8dd77ff8"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "32fd2857-5199-430c-ad3c-ded9dd1cc008",
+			"name": "DELETE /beers/{id}",
+			"url": "localhost:9000/beers/3",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "344e6be4-d09d-4fac-981c-7f2f8dd77ff8",
+			"name": "PUT /beers/{id}",
+			"url": "localhost:9000/beers/3",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n  \"id\": 4,\n  \"name\": \"kaiser\",\n  \"ingredients\": \"ceveja\",\n  \"alcoholContent\": \"19%\",\n  \"price\": 4.4,\n  \"category\": \"D\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b9ae5396-3e70-41f6-a8f0-e9f8ca2e505b",
+			"name": "GET /beers/{id}",
+			"url": "localhost:9000/beers/3",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "cbae7ba3-a104-4ee8-8c8d-844afa0f6bc8",
+			"name": "GET /beers",
+			"url": "localhost:9000/beers",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ed1a5e7c-426a-4699-a47c-0554334ae039",
+			"name": "POST /beers",
+			"url": "localhost:9000/beers",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n  \"id\": 4,\n  \"name\": \"kaiser\",\n  \"ingredients\": \"ceveja\",\n  \"alcoholContent\": \"19%\",\n  \"price\": 4.4,\n  \"category\": \"D\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
